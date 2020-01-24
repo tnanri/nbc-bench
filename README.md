@@ -3,10 +3,10 @@ Benchmark program for measuring effect of communication overlap by non-blocking 
 
 Usage:
  - Modify makefile and type make.
- - Run: 
-    mpirun -np #procs ./ovlpbench [options] 
-    Available options: 
-      -n # : size of array for matrix multiplication
+ - Run:  
+    mpirun -np #procs ./ovlpbench [options]  
+    Available options:  
+      -n # : size of array for matrix multiplication  
       -w # : number of procs per node
       -m # : size of message
       -t # : repeat time
