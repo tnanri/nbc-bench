@@ -5,15 +5,15 @@ Usage:
  - Modify makefile and type make.
  - Run:  
     mpirun -np #procs ./ovlpbench [options]  
-    Available options:  
-      -n # : size of array for matrix multiplication  
-      -w # : number of procs per node
-      -m # : size of message
-      -t # : repeat time
-      -f # : communitation type (0: alltoall, 1: allreduce, 2: bcast)
-      -p # : use progress pragma (0: no, 1: yes) (Fujitsu MPI only)
-      -q # : use non-blocking (0: no, 1: yes)
-      -d # : use OpenMP dynamic scheduling (0: no, 1: yes)
+    Available options:
+    =  -n # : size of array for matrix multiplication
+    =  -w # : number of procs per node
+    =  -m # : size of message
+    =  -t # : repeat time
+    =  -f # : communitation type (0: alltoall, 1: allreduce, 2: bcast)
+    =  -p # : use progress pragma (0: no, 1: yes) (Fujitsu MPI only)
+    =  -q # : use non-blocking (0: no, 1: yes)
+    =  -d # : use OpenMP dynamic scheduling (0: no, 1: yes)
 
 Output: 
     procs : number of procs
